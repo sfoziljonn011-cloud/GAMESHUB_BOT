@@ -3,7 +3,7 @@ import random
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes
 
-TOKEN = "8264115840:AAE_-57CLgZDeeeIOshxOc3emN8UTtWEmDY"
+TOKEN = ""
 
 # --- MA'LUMOTLAR OMBORI ---
 MAFIA_GAMES = {}
@@ -363,4 +363,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
